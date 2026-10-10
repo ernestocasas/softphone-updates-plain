@@ -1,7 +1,219 @@
 <h1>📘 Manual — Softphone Educronix</h1>
-<p><b>El manual completo está en preparación.</b> Estamos actualizándolo para cubrir las funciones más recientes (llamada en espera, botón always-on-top, líneas adicionales, y más).</p>
-<p>Mientras tanto, si tenés una pregunta o sugerencia, escribinos a <a href="mailto:support@educronix.com">support@educronix.com</a> — respondemos en español o inglés.</p>
+<p class="mut">Versión 1.4.6 · Windows y macOS</p>
+
+<h2>Primeros pasos</h2>
+<p>Al abrir la aplicación por primera vez tenés que cargar tus datos de extensión. Andá a <b>⚙ Ajustes → Conexión</b> y completá:</p>
+<ul>
+  <li><b>Extensión</b> y <b>Contraseña</b>: los que te dio tu administrador.</li>
+  <li><b>Nombre para mostrar</b> (opcional): lo que ve la otra persona cuando llamás.</li>
+</ul>
+<p>Cerrá Ajustes y tocá <b>Registrar</b> en la barra de estado. Cuando el punto se pone verde y aparece <b>Registrado</b> con tu número, ya podés llamar. Si dejás marcado <b>Conectar automáticamente al abrir</b>, no vas a tener que volver a hacerlo.</p>
+<p>Si tu administrador te pasó una <b>URL de aprovisionamiento</b>, pegala en el campo que está arriba de todo en Ajustes y tocá <b>🌐</b>: eso carga la configuración completa sin que tengas que escribir nada.</p>
+
+<h3>Perfiles</h3>
+<p>Arriba de Ajustes hay un selector de <b>Perfil</b>. Cada perfil guarda su propia extensión, servidor, historial y preferencias. Sirve si usás más de una central o más de una extensión: creás uno con <b>+</b>, y cambiás entre ellos desde el selector.</p>
+
+<h2>Hacer una llamada</h2>
+<p>Escribí el número o la extensión en el campo de arriba —con el teclado de tu computadora o con el teclado en pantalla— y tocá <b>📞 Llamar</b>, o <b>🎥 Video</b> si querés videollamada.</p>
+<p>Al llamar, el campo se vacía y arriba vas a ver <b>En llamada con</b> seguido de la extensión del otro lado, con el cronómetro al costado. Si llamás a un grupo y atiende otra persona, se muestra <b>quién atendió realmente</b>, no el número que marcaste.</p>
+
+<h3>Últimas llamadas 🕘</h3>
+<p>El botón <b>🕘</b>, al lado del campo, abre las últimas diez llamadas: salientes <b>↗</b>, recibidas <b>↙</b> y perdidas <b>✗</b>. Cada número aparece una sola vez, con la fecha de la más reciente. Un clic lo pone en el campo, listo para llamar de nuevo.</p>
+
+<h3>Cuando la llamada no se concreta</h3>
+<p>El softphone te dice el motivo, y también lo guarda en el historial:</p>
+<ul>
+  <li><b>Ocupado</b> — la otra extensión está en otra llamada.</li>
+  <li><b>No contestó</b> — timbró y nadie atendió.</li>
+  <li><b>Número inexistente</b> — esa extensión o número no existe en la central.</li>
+  <li><b>Rechazada</b> — del otro lado cortaron la llamada a propósito.</li>
+  <li><b>Atendida en otra extensión</b> — un compañero del mismo grupo la tomó antes que vos.</li>
+  <li><b>Cancelada por quien llamó</b> — colgaron antes de que atendieras.</li>
+</ul>
+
+<h2>Durante la llamada</h2>
+<ul>
+  <li><b>🔇 Silenciar</b> — apaga tu micrófono. La otra persona deja de escucharte, vos la seguís escuchando.</li>
+  <li><b>⏸ Retener</b> — deja la llamada en espera. Tocá <b>▶ Reanudar</b> para volver.</li>
+  <li><b>Transferir</b> — escribí la extensión destino en <b>Transferir a</b> y tocá <b>↪ Transferir</b>. La llamada pasa a esa extensión y vos quedás libre.</li>
+  <li><b>📶 Calidad</b> — muestra cómo viene la comunicación (ver más abajo).</li>
+</ul>
+
+<h2>Recibir llamadas</h2>
+<p>Cuando entra una llamada, la ventana aparece sola y suena el timbre. Tocá <b>✔ Contestar</b> para voz, o <b>🎥 Con video</b> si querés responder con cámara.</p>
+
+<h3>Llamada en espera</h3>
+<p>Si ya estás hablando y entra otra llamada, aparece un aviso arriba con tres opciones:</p>
+<ul>
+  <li><b>✔ Contestar</b> — pone la llamada actual en espera y atiende la nueva. La llamada en espera queda en una barra con <b>⇄ Retomar</b> para volver a ella, o <b>✕</b> para cortarla.</li>
+  <li><b>✖ Rechazar</b> — corta la entrante al instante. Del otro lado deja de timbrar y queda como perdida.</li>
+  <li><b>Ignorar</b> — solo oculta el aviso. <b>La llamada sigue timbrando del otro lado</b>: no la rechaza, únicamente te la saca de la vista.</li>
+</ul>
+<p>Podés tener como máximo <b>dos llamadas a la vez</b> (una activa y una en espera). Una tercera se rechaza automáticamente como ocupado. La segunda llamada se contesta siempre en modo voz, aunque la primera tenga video: la cámara solo puede atender una llamada por vez.</p>
+
+<h2>No molestar 🌙</h2>
+<p>El botón <b>🌙</b> de la barra de estado activa <b>No molestar</b>. Mientras esté en rojo, todas las entrantes se rechazan como ocupado y quedan registradas como perdidas. Se mantiene activo aunque cierres la aplicación, así que acordate de apagarlo.</p>
+
+<h2>Contestar automáticamente</h2>
+<p>En <b>Ajustes → Conexión</b> podés activar <b>Contestar entrantes automáticamente</b> y elegir después de cuántos segundos de timbre. Las llamadas se atienden solas, siempre en voz. Si tenés No molestar activo, No molestar gana.</p>
+
+<h2>Líneas adicionales</h2>
+<p>En <b>Ajustes → Conexión → ☎ Líneas adicionales</b> podés registrar hasta <b>dos extensiones más</b> de la misma central. Sirve si atendés varios números.</p>
+<p>Con líneas adicionales activas aparece un selector al lado del campo de marcado para elegir con cuál llamás. Las entrantes suenan por cualquiera de ellas. La barra de estado te muestra cuáles están registradas.</p>
+
+<h2>Calidad de la llamada 📶</h2>
+<p>Durante la llamada, el botón <b>📶 Calidad</b> despliega cinco indicadores en vivo:</p>
+<ul>
+  <li><b>MOS</b> — nota general de la llamada, de 1 a 5. Por encima de 4 es buena.</li>
+  <li><b>Jitter</b> — variación en la llegada del audio. Cuanto más bajo, mejor; por encima de 30&nbsp;ms se empieza a notar.</li>
+  <li><b>Pérdida</b> — porcentaje de audio que no llegó. Por encima de 2&nbsp;% se escucha entrecortado.</li>
+  <li><b>RTT</b> — tiempo de ida y vuelta hasta la central.</li>
+  <li><b>Paq/s</b> — paquetes de audio por segundo. Si cae a cero, el audio se cortó.</li>
+</ul>
+<p>Si alguien manda tonos durante la llamada (por ejemplo al navegar un menú), el panel se congela unos segundos: los tonos distorsionan la medición y no reflejan la calidad real.</p>
+
+<h2>Historial y registro</h2>
+<p>La pestaña <b>📋 Registro</b> tiene dos partes:</p>
+<ul>
+  <li><b>Historial de llamadas</b> — las últimas 50, con fecha, duración y, si no se concretó, el motivo. Un clic en cualquiera pone ese número en el campo de marcado.</li>
+  <li><b>Registro de eventos</b> — detalle técnico de lo que hace la aplicación. Sirve si tenés que reportar un problema: copiá lo que diga y mandalo con tu consulta.</li>
+</ul>
+
+<h2>La ventana y la bandeja</h2>
+<ul>
+  <li><b>Cerrar con la X</b> manda la aplicación a la bandeja del sistema (en macOS, a la barra de menú) y sigue recibiendo llamadas. Para cerrarla de verdad, usá <b>Salir</b> desde el menú del ícono de la bandeja.</li>
+  <li>Si volvés a abrir la aplicación cuando ya está en la bandeja, <b>se restaura la ventana que ya estaba</b> en vez de abrirse otra copia. Si necesitás dos teléfonos abiertos a la vez, activá <b>Ajustes → Aplicación → Permitir abrir varias instancias</b>.</li>
+  <li><b>📌</b> en la barra superior mantiene la ventana siempre visible por encima de las demás.</li>
+  <li><b>Iniciar automáticamente con el sistema</b>, en Ajustes → Aplicación, hace que el softphone arranque solo al prender la computadora.</li>
+</ul>
+
+<h2>Audio y video</h2>
+<p>En <b>Ajustes → Dispositivos</b> elegís micrófono, cámara y altavoz. El <b>Timbre</b> se configura aparte: podés hacer que las entrantes suenen por los parlantes de la computadora aunque estés usando auriculares.</p>
+<p><b>Detectar dispositivos</b> refresca la lista si conectaste algo nuevo, y <b>Probar cámara</b> verifica que la cámara esté disponible antes de una videollamada.</p>
+
+<h2>Idioma y apariencia</h2>
+<p>Los botones de la barra superior cambian el idioma entre <b>español e inglés</b> y alternan entre tema <b>claro y oscuro</b>. Ambas preferencias se recuerdan.</p>
+
+<h2>Actualizaciones</h2>
+<p>El softphone se actualiza solo. Cuando hay una versión nueva la descarga en segundo plano y la aplica la próxima vez que cierres la aplicación, o cuando elijas <b>Reiniciar e instalar</b>. No tenés que desinstalar ni bajar nada a mano.</p>
+
+<h2>Problemas frecuentes</h2>
+<p><b>No se registra.</b> Revisá extensión y contraseña en Ajustes. Si están bien, puede ser la red: probá desde otra conexión. El Registro de eventos suele decir el motivo exacto.</p>
+<p><b>Se conecta la llamada pero no se escucha nada.</b> Verificá en Ajustes → Dispositivos que estén seleccionados el micrófono y el altavoz correctos, y que el sistema operativo le haya dado permiso de micrófono a la aplicación.</p>
+<p><b>La otra persona no me escucha.</b> Fijate que no esté activo <b>🔇 Silenciar</b>, y revisá el permiso de micrófono del sistema.</p>
+<p><b>La cámara no funciona.</b> Cerrá cualquier otra aplicación que la esté usando: una sola aplicación puede tomar la cámara a la vez.</p>
+<p><b>Windows avisa al instalar.</b> En la instalación manual, Windows puede mostrar un aviso de SmartScreen porque todavía no reconoce el instalador. Elegí <b>Más información → Ejecutar de todas formas</b>. Las actualizaciones automáticas no muestran ese aviso.</p>
+
+<h2>Soporte</h2>
+<p>Escribinos a <a href="mailto:support@educronix.com">support@educronix.com</a> — respondemos en español o inglés. Si es un problema técnico, copiá el <b>Registro de eventos</b> de la pestaña 📋 y adjuntalo.</p>
+
 <hr>
-<h1>📘 Manual — Softphone Educronix (EN)</h1>
-<p><b>The full manual is under development.</b> We're updating it to cover the latest features (call waiting, always-on-top button, additional lines, and more).</p>
-<p>In the meantime, if you have a question or suggestion, email us at <a href="mailto:support@educronix.com">support@educronix.com</a> — we reply in English or Spanish.</p>
+
+<h1>📘 Manual — Softphone Educronix (English)</h1>
+<p class="mut">Version 1.4.6 · Windows and macOS</p>
+
+<h2>Getting started</h2>
+<p>The first time you open the app you need to enter your extension details. Go to <b>⚙ Settings → Connection</b> and fill in:</p>
+<ul>
+  <li><b>Extension</b> and <b>Password</b>: the ones your administrator gave you.</li>
+  <li><b>Display name</b> (optional): what the other person sees when you call.</li>
+</ul>
+<p>Close Settings and click <b>Register</b> in the status bar. Once the dot turns green and it says <b>Registered</b> with your number, you can place calls. Leave <b>Connect automatically on startup</b> checked and you won't have to do this again.</p>
+<p>If your administrator gave you a <b>provisioning URL</b>, paste it in the field at the top of Settings and click <b>🌐</b>: that loads the whole configuration for you.</p>
+
+<h3>Profiles</h3>
+<p>At the top of Settings there's a <b>Profile</b> selector. Each profile keeps its own extension, server, history and preferences — useful if you work with more than one PBX or extension. Create one with <b>+</b> and switch between them from the selector.</p>
+
+<h2>Placing a call</h2>
+<p>Type the number or extension in the field at the top — using your keyboard or the on-screen keypad — and click <b>📞 Call</b>, or <b>🎥 Video</b> for a video call.</p>
+<p>When the call starts the field clears and the status line shows <b>On call with</b> followed by the other party's extension, with the timer beside it. If you call a ring group and someone else picks up, it shows <b>who actually answered</b>, not the number you dialed.</p>
+
+<h3>Recent calls 🕘</h3>
+<p>The <b>🕘</b> button next to the field opens your last ten calls: outgoing <b>↗</b>, incoming <b>↙</b> and missed <b>✗</b>. Each number appears once, dated by its most recent call. One click puts it back in the field, ready to redial.</p>
+
+<h3>When a call doesn't go through</h3>
+<p>The softphone tells you why, and keeps the reason in your call history:</p>
+<ul>
+  <li><b>Busy</b> — the other extension is on another call.</li>
+  <li><b>No answer</b> — it rang and nobody picked up.</li>
+  <li><b>Number not found</b> — that extension or number doesn't exist on the PBX.</li>
+  <li><b>Rejected</b> — the other side declined the call.</li>
+  <li><b>Answered on another extension</b> — a colleague in the same group took it first.</li>
+  <li><b>Caller hung up</b> — they hung up before you answered.</li>
+</ul>
+
+<h2>During a call</h2>
+<ul>
+  <li><b>🔇 Mute</b> — turns off your microphone. They stop hearing you; you still hear them.</li>
+  <li><b>⏸ Hold</b> — puts the call on hold. Click <b>▶ Resume</b> to come back.</li>
+  <li><b>Transfer</b> — type the destination in <b>Transfer to</b> and click <b>↪ Transfer</b>. The call moves to that extension and you're free.</li>
+  <li><b>📶 Quality</b> — shows how the call is doing (see below).</li>
+</ul>
+
+<h2>Receiving calls</h2>
+<p>When a call comes in, the window comes up on its own and rings. Click <b>✔ Answer</b> for voice, or <b>🎥 With video</b> to answer with your camera.</p>
+
+<h3>Call waiting</h3>
+<p>If you're already on a call and another one comes in, a banner appears with three options:</p>
+<ul>
+  <li><b>✔ Answer</b> — puts the current call on hold and answers the new one. The held call stays in a bar with <b>⇄ Resume</b> to switch back, or <b>✕</b> to end it.</li>
+  <li><b>✖ Reject</b> — ends the incoming call immediately. It stops ringing on their side and is logged as missed.</li>
+  <li><b>Ignore</b> — only hides the banner. <b>The call keeps ringing on the caller's side</b>: it isn't rejected, it's just out of your way.</li>
+</ul>
+<p>You can have at most <b>two calls at once</b> (one active, one on hold). A third is automatically rejected as busy. The second call is always answered as voice-only, even if the first one has video: the camera can only serve one call at a time.</p>
+
+<h2>Do not disturb 🌙</h2>
+<p>The <b>🌙</b> button in the status bar turns on <b>Do not disturb</b>. While it's red, every incoming call is rejected as busy and logged as missed. It stays on after you close the app, so remember to turn it off.</p>
+
+<h2>Auto answer</h2>
+<p>In <b>Settings → Connection</b> you can enable <b>Answer incoming calls automatically</b> and choose how many seconds of ringing first. Calls are answered as voice. If Do not disturb is on, Do not disturb wins.</p>
+
+<h2>Additional lines</h2>
+<p>Under <b>Settings → Connection → ☎ Additional lines</b> you can register up to <b>two more extensions</b> from the same PBX — useful if you answer several numbers.</p>
+<p>With extra lines active, a selector appears next to the dial field so you can choose which one you call from. Incoming calls ring on any of them, and the status bar shows which are registered.</p>
+
+<h2>Call quality 📶</h2>
+<p>During a call, the <b>📶 Quality</b> button reveals five live indicators:</p>
+<ul>
+  <li><b>MOS</b> — overall call score from 1 to 5. Above 4 is good.</li>
+  <li><b>Jitter</b> — variation in audio arrival. Lower is better; above 30&nbsp;ms starts to be noticeable.</li>
+  <li><b>Loss</b> — percentage of audio that never arrived. Above 2&nbsp;% sounds choppy.</li>
+  <li><b>RTT</b> — round-trip time to the PBX.</li>
+  <li><b>Pkt/s</b> — audio packets per second. If it drops to zero, audio has stopped.</li>
+</ul>
+<p>If anyone sends tones during the call (navigating a menu, for instance), the panel freezes for a few seconds: tones distort the measurement and don't reflect real quality.</p>
+
+<h2>History and log</h2>
+<p>The <b>📋 Log</b> tab has two parts:</p>
+<ul>
+  <li><b>Call history</b> — your last 50 calls, with date, duration and, when a call didn't go through, the reason. Click any entry to put that number in the dial field.</li>
+  <li><b>Event log</b> — technical detail of what the app is doing. Useful when reporting a problem: copy it and send it with your message.</li>
+</ul>
+
+<h2>Window and tray</h2>
+<ul>
+  <li><b>Closing with the X</b> sends the app to the system tray (the menu bar on macOS) and it keeps receiving calls. To really quit, use <b>Quit</b> from the tray icon menu.</li>
+  <li>Reopening the app while it's in the tray <b>restores the window you already had</b> instead of starting a second copy. If you need two phones open at once, turn on <b>Settings → Application → Allow multiple instances</b>.</li>
+  <li><b>📌</b> in the top bar keeps the window above all others.</li>
+  <li><b>Start automatically with the system</b>, in Settings → Application, launches the softphone when you turn on your computer.</li>
+</ul>
+
+<h2>Audio and video</h2>
+<p>Under <b>Settings → Devices</b> you pick microphone, camera and speaker. The <b>Ringer</b> is set separately, so incoming calls can ring through your computer speakers even while you're wearing a headset.</p>
+<p><b>Detect devices</b> refreshes the list if you plugged something in, and <b>Test camera</b> checks the camera is available before a video call.</p>
+
+<h2>Language and appearance</h2>
+<p>The buttons in the top bar switch between <b>Spanish and English</b> and between <b>light and dark</b> themes. Both choices are remembered.</p>
+
+<h2>Updates</h2>
+<p>The softphone updates itself. When a new version is available it downloads in the background and installs the next time you close the app, or when you choose <b>Restart and install</b>. Nothing to uninstall or download by hand.</p>
+
+<h2>Common problems</h2>
+<p><b>It won't register.</b> Check your extension and password in Settings. If those are right, it may be the network — try another connection. The Event log usually states the exact reason.</p>
+<p><b>The call connects but there's no sound.</b> In Settings → Devices, make sure the right microphone and speaker are selected, and that your operating system has granted the app microphone permission.</p>
+<p><b>They can't hear me.</b> Check that <b>🔇 Mute</b> isn't on, and check the system microphone permission.</p>
+<p><b>The camera doesn't work.</b> Close any other app using it: only one app can hold the camera at a time.</p>
+<p><b>Windows warns me when installing.</b> On a manual install, Windows may show a SmartScreen warning because it doesn't recognize the installer yet. Choose <b>More info → Run anyway</b>. Automatic updates don't show this warning.</p>
+
+<h2>Support</h2>
+<p>Email us at <a href="mailto:support@educronix.com">support@educronix.com</a> — we reply in English or Spanish. For a technical problem, copy the <b>Event log</b> from the 📋 tab and attach it.</p>
